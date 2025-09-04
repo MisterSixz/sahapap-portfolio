@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
       <div className="relative z-10">
         {/* Replace with actual image from PDF Page 1 */}
         <img 
-          src="../assets/profile.jpg" 
+          src="/assets/profile.jpg" 
           alt="Sahapap Sittisorn"
           className="w-40 h-60 rounded-full mx-auto mb-6 border-4 border-green-400 shadow-lg"
         />
