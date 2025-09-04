@@ -8,21 +8,21 @@ const activitiesData: Activity[] = [
         title: 'สภานักเรียน',
         role: 'หัวหน้าฝ่ายเทคโนโลยี',
         description: 'ทำหน้าที่จัดเตรียมสถานที่ในงานต่าง ๆ และเป็นช่างภาพอาสา',
-        imageUrl: '/assets/coul.png', // Replace with image from PDF Page 9
+        imageUrl: '../assets/coul.png', // Replace with image from PDF Page 9
         period: '2567',
     },
     {
         title: 'ฝึกประสบการณ์ที่โรงพยาบาลขุขันธ์',
         role: 'อาสาสมัคร',
         description: 'ฝึกประสบการณ์ที่โรงพยาบาลขุขันธ์ ช่วยเหลืออำนวยความสะดวกให้กับเจ้าหน้าที่และผู้ป่วยที่โรงพยาบาลขุขันธ์',
-        imageUrl: '/assets/hos.png', // Replace with image from PDF Page 10
+        imageUrl: '../assets/hos.png', // Replace with image from PDF Page 10
         period: '21-25 เมษายน 2568',
     },
     {
         title: 'การอบรมทางวิทยาศาสตร์',
         role: 'ณ มหาวิทยาลัยราชภัฏอุบลราชธานี',
         description: 'ฝึกการต่อวงจรไฟฟ้า และทฤษฎีไฟฟ้าในหลักฟิสิกส์เบื้องต้น',
-        imageUrl: '/assets/phy.png', // Replace with image from PDF Page 10
+        imageUrl: '../assets/phy.png', // Replace with image from PDF Page 10
         period: '1 กันยายน 2567',
     }
 ];

@@ -11,7 +11,7 @@ const experienceData: ExperienceItem[] = [
     period: 'รางวัลชนะเลิศ และ โล่ผู้ช่วยรัฐมนตรี ดร.สิริพงศ์ อังคสกุลเกียรติ',
     description: 'ผมทำหน้าที่เป็นผู้เขียนโปรแกรมของระบบ, Train Model และสร้างการเชื่อมต่อระหว่างระบบและฐานข้อมูล SQL โดยใช้ภาษา Python ใช้เครื่องมือคือไลบรารี่ face-recognition, mysql-connect, pickle และสร้างโปรแกรมสำหรับตรวจสอบข้อมูลการเข้าเรียนด้วย tkinter จาก Python และระบบทำงานบน Rasberry Pi 4 ',
     techStack: ['Python', 'Face-Recognition', 'OpenCV', 'tkinter', 'MySQL', 'PHP', 'Raspberry Pi 4'],
-    imageUrl: '/assets/robotics.jpg', // Replace with image from PDF Page 5
+    imageUrl: '../assets/robotics.jpg', // Replace with image from PDF Page 5
   },
   {
     category: 'IoT Project',
@@ -20,7 +20,7 @@ const experienceData: ExperienceItem[] = [
     period: '2567 (ม.5)',
     description: '      ผมทำหน้าที่เป็นผู้เขียนโปรแกรมของระบบโดยใช้ Arduino บนบอร์ด esp8266 และสร้างการทำงานแบบ IOT ด้วยระบบ mqtt โดยใช้ broker ของ EMQX โดยควบคุมการทำงานของระบบด้วยเว็บแอพพลิเคชัน TAUD IOT ที่ผมสร้างขึ้นด้วย node-red ซึ่งใช้คอมพิวเตอร์ของโรงเรียนเป็นเครื่องจำลองเซิร์ฟเวอร์',
     techStack: ['Arduino (C++)', 'ESP8266', 'Node-RED', 'MQTT', 'EMQX'],
-    imageUrl: '/assets/iot.png', // Replace with image from PDF Page 6
+    imageUrl: '../assets/iot.png', // Replace with image from PDF Page 6
   },
   {
     category: 'Game Development Competition',
@@ -29,7 +29,7 @@ const experienceData: ExperienceItem[] = [
     period: 'รางวัลชนะเลิศ',
     description: '',
     techStack: ['Construct 2'],
-    imageUrl: '/assets/71game.png', // Replace with image from PDF Page 7
+    imageUrl: '../assets/71game.png', // Replace with image from PDF Page 7
   },
   {
     category: 'Game Development Competition',
@@ -38,7 +38,7 @@ const experienceData: ExperienceItem[] = [
     period: 'รางวัลรองชนะเลิศอันดับหนึ่ง',
     description: '',
     techStack: ['Construct 2'],
-    imageUrl: '/assets/70game.png', // Replace with image from PDF Page 7
+    imageUrl: '../assets/70game.png', // Replace with image from PDF Page 7
   },
 ];
 
