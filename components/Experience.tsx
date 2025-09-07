@@ -22,6 +22,7 @@ const experienceData: ExperienceItem[] = [
     description: '      ผมทำหน้าที่เป็นผู้เขียนโปรแกรมของระบบโดยใช้ Arduino บนบอร์ด esp8266 และสร้างการทำงานแบบ IOT ด้วยระบบ mqtt โดยใช้ broker ของ EMQX โดยควบคุมการทำงานของระบบด้วยเว็บแอพพลิเคชัน TAUD IOT ที่ผมสร้างขึ้นด้วย node-red ซึ่งใช้คอมพิวเตอร์ของโรงเรียนเป็นเครื่องจำลองเซิร์ฟเวอร์',
     techStack: ['Arduino (C++)', 'ESP8266', 'Node-RED', 'MQTT', 'EMQX'],
     imageUrl: '/assets/iot.png', // Replace with image from PDF Page 6
+    pdfUrl: 'https://www.canva.com/design/DAGYFalyXjI/jSKYg-txbGXqtbQwk4qHyw/view?utm_content=DAGYFalyXjI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7552dee727',
   },
   {
     category: 'Game Development Competition',
