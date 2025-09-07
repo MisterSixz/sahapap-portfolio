@@ -2,7 +2,7 @@
 import React from 'react';
 import Section from './Section';
 import type { ExperienceItem } from '../types';
-
+import { DocumentTextIcon } from './icons/Icons';
 const experienceData: ExperienceItem[] = [
   {
     category: 'Robotics Project',
@@ -11,7 +11,8 @@ const experienceData: ExperienceItem[] = [
     period: 'รางวัลชนะเลิศ และ โล่ผู้ช่วยรัฐมนตรี ดร.สิริพงศ์ อังคสกุลเกียรติ',
     description: 'ผมทำหน้าที่เป็นผู้เขียนโปรแกรมของระบบ, Train Model และสร้างการเชื่อมต่อระหว่างระบบและฐานข้อมูล SQL โดยใช้ภาษา Python ใช้เครื่องมือคือไลบรารี่ face-recognition, mysql-connect, pickle และสร้างโปรแกรมสำหรับตรวจสอบข้อมูลการเข้าเรียนด้วย tkinter จาก Python และระบบทำงานบน Rasberry Pi 4 ',
     techStack: ['Python', 'Face-Recognition', 'OpenCV', 'tkinter', 'MySQL', 'PHP', 'Raspberry Pi 4'],
-    imageUrl: '/assets/robotics.jpg', // Replace with image from PDF Page 5
+    imageUrl: '/assets/robotics.jpg', 
+    pdfUrl: '/pdf/robot.pdf',
   },
   {
     category: 'IoT Project',
@@ -29,16 +30,25 @@ const experienceData: ExperienceItem[] = [
     period: 'รางวัลชนะเลิศ',
     description: '',
     techStack: ['Construct 2'],
-    imageUrl: '/assets/71game.png', // Replace with image from PDF Page 7
+    imageUrl: '/assets/realgame71.png', // Replace with image from PDF Page 7
   },
   {
     category: 'Game Development Competition',
     title: 'การแข่งขันสร้างเกมสร้างสรรค์ ชั้นม.1-ม.3 ',
-    subtitle: 'านศิลปหัตถกรรมนักเรียน ระดับชาติ ครั้งที่ 70',
+    subtitle: 'งานศิลปหัตถกรรมนักเรียน ระดับชาติ ครั้งที่ 70',
     period: 'รางวัลรองชนะเลิศอันดับหนึ่ง',
     description: '',
     techStack: ['Construct 2'],
-    imageUrl: '/assets/70game.png', // Replace with image from PDF Page 7
+    imageUrl: '/assets/realgame70.png', // Replace with image from PDF Page 7
+  },
+  {
+    category: 'Game Development Competition',
+    title: 'การแข่งขันสร้างเกมสร้างสรรค์ ชั้นป.4 - ป.6 ',
+    subtitle: 'งานศิลปหัตถกรรมนักเรียน ระดับเขตพื้นที่การศึกษาประถมศึกษาศรีสะเกษเขต 3 ครั้งที่ 68',
+    period: 'รางวัลชนะเลิศ',
+    description: '',
+    techStack: ['Construct 2'],
+    imageUrl: '/assets/realgame68.png', // Replace with image from PDF Page 7
   },
 ];
 
@@ -63,6 +73,17 @@ const ExperienceCard: React.FC<{ item: ExperienceItem; index: number }> = ({ ite
                     </span>
                 ))}
             </div>
+        )}
+        {item.pdfUrl && (
+            <a
+                href={item.pdfUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center mt-4 px-4 py-2 bg-green-500/20 text-green-300 font-semibold rounded-lg hover:bg-green-500/40 transition-colors duration-300"
+            >
+                <DocumentTextIcon />
+                <span className="ml-2">รายละเอียด (PDF)</span>
+            </a>
         )}
       </div>
     </div>

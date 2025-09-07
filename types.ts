@@ -7,6 +7,7 @@ export interface ExperienceItem {
   description: string;
   techStack?: string[];
   imageUrl: string;
+  pdfUrl?: string;
 }
 
 export interface Skill {
@@ -20,4 +21,11 @@ export interface Activity {
     description: string;
     imageUrl: string;
     period: string;
+}
+
+export interface Certificate {
+    title: string;
+    issuer: string;
+    period: string;
+    imageUrl: string;
 }
