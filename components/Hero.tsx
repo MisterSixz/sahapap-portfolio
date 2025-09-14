@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
             Sahapap Sittisorn
         </p>
         <div className="mt-6 text-lg md:text-xl text-green-400 font-medium">
-            <p>Portfolio for Computer Science</p>
+            <p>Portfolio | แฟ้มสะสมผลงาน</p>
         </div>
       </div>
     </section>
