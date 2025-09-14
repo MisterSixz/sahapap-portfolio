@@ -45,7 +45,6 @@ const App: React.FC = () => {
       default:
         return (
           <>
-            <Analytics />
             <Hero />
             <About />
             {/* <StatementOfPurpose /> */}
