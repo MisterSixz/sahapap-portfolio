@@ -13,6 +13,7 @@ import Contact from './components/Contact';
 import CertificateModal from './components/CertificateModal';
 import ActivityModal from './components/ActivityModal';
 import type { Certificate, Activity } from './types';
+import { Analytics } from "@vercel/analytics/next";
 
 const App: React.FC = () => {
   const [view, setView] = useState<'main' | 'certificates' | 'activities'>('main');
@@ -44,9 +45,10 @@ const App: React.FC = () => {
       default:
         return (
           <>
+            <Analytics />
             <Hero />
             <About />
-            <StatementOfPurpose />
+            {/* <StatementOfPurpose /> */}
             <Experience />
             <Skills />
             <Activities
